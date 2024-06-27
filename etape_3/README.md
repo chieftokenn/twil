@@ -19,6 +19,8 @@ SELECT p.id, p.name, c.name as category_name
 FROM App\Entity\Product p
 JOIN p.category c
 WHERE c.name = :categoryName
+```
+## Cas D'Utilisation du sous language DQL
 
 Pour exécuter cette requête, nous utiliserons le gestionnaire d'entités de Doctrine 
 
@@ -38,4 +40,5 @@ $results = $query->getResult();
 foreach ($results as $result) {
     echo $result['id'] . ' - ' . $result['name'] . ' - ' . $result['category_name'] . PHP_EOL;
 }
+
 
