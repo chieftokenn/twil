@@ -21,7 +21,7 @@ FROM App\Entity\Product p
 JOIN p.category c
 WHERE c.name = :categoryName
 ```
-## Cas D'Utilisation du sous language DQL
+## Cas Pratique 
 
 Pour exécuter cette requête, nous utiliserons le gestionnaire d'entités de Doctrine 
 
