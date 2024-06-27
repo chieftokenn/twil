@@ -9,6 +9,7 @@ SELECT p.id, p.name, c.name as category_name
 FROM products p
 INNER JOIN categories c ON p.category_id = c.id
 WHERE c.name = 'Electronics';
+```
 
 ## Solution
 
