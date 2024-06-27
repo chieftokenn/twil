@@ -25,7 +25,7 @@ echo "Le plus grand nombre est : " . findLargestNumber($array);
 
 ## Cas Non Gérés
 
-### Aucun Vérification du Tableau
+### Aucunes Vérifications du Tableau
 
 La fonction ne vérifie pas si `le tableau est vide ou non` et ressortira 0 dans ce cas, ce qui voudrait dire que le tableau vide contiendrais un nombre.
 
